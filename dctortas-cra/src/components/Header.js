@@ -5,8 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Header(props) {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
+    <Navbar className="pageHeader" expand="lg">
+      <Container className="header-container">
         <Navbar.Brand href="#home">DC Tortas</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
