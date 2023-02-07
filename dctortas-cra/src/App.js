@@ -3,14 +3,14 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PageLayout from "./layout/PageLayout";
 import Home from "./pages/Home";
-import AfterForgotPw from "./pages/AfterForgotPw";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<PageLayout />}>
-          <Route index element={<AfterForgotPw />} />
+          <Route index element={<SignUp />} />
         </Route>
       </Routes>
     </div>

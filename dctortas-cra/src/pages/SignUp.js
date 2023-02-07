@@ -6,8 +6,9 @@ function SignUp(props) {
     <>
       <div className="sign-up-header">
         <p>Welcome to the Best Tortas in Town!</p>
+        <p>Sign Up Here!</p>
       </div>
-      <Form>
+      <Form className="signup-form">
         <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
           <Form.Label column sm={2}>
             First Name
