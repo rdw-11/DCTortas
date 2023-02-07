@@ -2,19 +2,30 @@ import React from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 
 function SignUp(props) {
+  // const [firstname, setFirstName] = useState("FN");
+  // const [lastname, setLastName] = useState("LN");
+  // const [phoneNum, setPhoneNum] = useState("PN");
+  // const [email, setSetEmail] = useState("Email");
+  // const [password, setEmail] = useState("PW");
+  // const [birthday, setSetBirthday] = useState("Bday");
+
+  //   HandleChange method to update the states
+  //   const handleChange = () => ();
+
   return (
     <>
       <div className="sign-up-header">
         <p>Welcome to the Best Tortas in Town!</p>
         <p>Sign Up Here!</p>
       </div>
+
       <Form className="signup-form">
         <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
           <Form.Label column sm={2}>
             First Name
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="email" placeholder="First Name" />
+            <Form.Control type="text" placeholder="First Name" />
           </Col>
         </Form.Group>
 
@@ -27,7 +38,7 @@ function SignUp(props) {
             Last Name
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="password" placeholder="Last Name" />
+            <Form.Control type="text" text placeholder="Last Name" />
           </Col>
         </Form.Group>
         <Form.Group
@@ -39,7 +50,7 @@ function SignUp(props) {
             Phone Number
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="password" placeholder="Phone Number" />
+            <Form.Control type="text" placeholder="Phone Number" />
           </Col>
         </Form.Group>
         <Form.Group
@@ -51,7 +62,7 @@ function SignUp(props) {
             Email
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="password" placeholder="Email" />
+            <Form.Control type="email" placeholder="Email" />
           </Col>
         </Form.Group>
         <Form.Group
@@ -75,7 +86,7 @@ function SignUp(props) {
             Birthday
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="password" placeholder="Birthday (Day/Month)" />
+            <Form.Control type="date" placeholder="Birthday (Day/Month)" />
           </Col>
         </Form.Group>
 
