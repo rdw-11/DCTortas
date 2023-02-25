@@ -14,6 +14,7 @@ border: black;
   font-family: "Teko";
   color: black;
   background-color: rgb(0, 255, 17);
+  text-align: center;
 }
 
 .App {
@@ -141,6 +142,16 @@ border: black;
   .login-form .loginButton {
       padding: 1rem;
      }
+
+#login-email{
+  width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #090909;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 
 .label-pw{

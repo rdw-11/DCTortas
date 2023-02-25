@@ -20,7 +20,7 @@ function Header(props) {
               // if link is home then return link for home, if not return the link href//
 
               return (
-                <Nav.Link href={link === "Home" ? "#home" : "#link"}>
+                <Nav.Link href={link === "Home" ? "/" : "#link"}>
                   {link}
                 </Nav.Link>
               );

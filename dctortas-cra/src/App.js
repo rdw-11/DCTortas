@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PageLayout from "./layout/PageLayout";
 import ForgotPw from "./pages/ForgotPw";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -11,9 +14,11 @@ function App() {
       <Header />
       <div className="App">
         <Routes>
-          <Route path="/forgotpw" element={<ForgotPw />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
