@@ -155,6 +155,15 @@ border: black;
   padding: 1rem;
 }
 
+#mb-3{
+      position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        margin: auto;
+        width: 25%;
+}
+
 .reset-pw-div{
   margin-bottom: 1rem;
 }

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const navArray = ["Home", "Sign-up", "Log-in", "Home", "About Us"];
+const navArray = ["Home", "Sign-up", "Log-in", "About Us", "Contact"];
 
 function Header(props) {
   return (
@@ -25,7 +25,6 @@ function Header(props) {
                 </Nav.Link>
               );
             })}
-            <Nav.Link href="#link">About Us</Nav.Link>
             <Nav.Link href="#link">Full Menu (pdf)</Nav.Link>
           </Nav>
         </Navbar.Collapse>

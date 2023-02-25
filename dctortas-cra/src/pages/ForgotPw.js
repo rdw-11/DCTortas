@@ -11,32 +11,33 @@ function ForgotPw(props) {
       <section>
         <p>Please enter your email or phone number below</p>
       </section>
-
-      <InputGroup className="mb-3">
-        <Form.Control
-          placeholder="Recipient's Email"
-          aria-label="Recipient's email"
-          aria-describedby="basic-addon2"
-        />
-        <Button variant="outline-secondary" id="button-addon2">
-          Submit
-        </Button>
-      </InputGroup>
-      <div>
-        <p>
-          <u>OR</u>
-        </p>
+      <div className="forgotPW-form-container">
+        <InputGroup id="mb-3">
+          <Form.Control
+            placeholder="Recipient's Email"
+            aria-label="Recipient's email"
+            aria-describedby="basic-addon2"
+          />
+          <Button variant="outline-secondary" id="button-addon2">
+            Submit
+          </Button>
+        </InputGroup>
+        <div>
+          <p>
+            <u>OR</u>
+          </p>
+        </div>
+        <InputGroup id="mb-3">
+          <Form.Control
+            placeholder="Recipient's Phone #"
+            aria-label="Recipient's phone #"
+            aria-describedby="basic-addon2"
+          />
+          <Button variant="outline-secondary" id="button-addon3">
+            Submit
+          </Button>
+        </InputGroup>
       </div>
-      <InputGroup className="mb-3">
-        <Form.Control
-          placeholder="Recipient's Phone #"
-          aria-label="Recipient's phone #"
-          aria-describedby="basic-addon2"
-        />
-        <Button variant="outline-secondary" id="button-addon3">
-          Submit
-        </Button>
-      </InputGroup>
     </>
   );
 }
